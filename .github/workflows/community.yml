@@ -13,6 +13,6 @@ jobs:
     steps:
     - name: Check Labels
       id: labeler
-      uses: jimschubert/labeler-action@repo-owner-from-fork
+      uses: docker://jimschubert/testing:repo-owner-from-fork
       with:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
