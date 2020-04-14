@@ -108,8 +108,3 @@ Please see [tagged.yml](./.github/workflows/tagged.yml) for some use cases.
 ## License
 
 This project is [licensed](./LICENSE) under Apache 2.0.
-
-
-
-
-
