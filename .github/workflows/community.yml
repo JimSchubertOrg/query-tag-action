@@ -15,7 +15,8 @@ jobs:
     steps:
     - name: Check Labels
       id: labeler
-      uses: docker://jimschubert/testing:repo-owner-from-fork
+#       uses: docker://jimschubert/testing:repo-owner-from-fork
+      uses: jimschubert/labeler-action@v2
       with:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         LOG_LEVEL: "debug"
