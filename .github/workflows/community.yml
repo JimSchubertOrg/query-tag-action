@@ -18,3 +18,4 @@ jobs:
       uses: docker://jimschubert/testing:repo-owner-from-fork
       with:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        LOG_LEVEL: "debug"
